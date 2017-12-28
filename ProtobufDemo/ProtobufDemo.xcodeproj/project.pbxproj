@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C34E27203D091965E5C371CA /* Pods_ProtobufDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E9D505728007002F8D7349 /* Pods_ProtobufDemo.framework */; };
 		E67E41D51FF4A0A800F2B69B /* person.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E41D41FF4A0A800F2B69B /* person.pb.swift */; };
+		E67E41D71FF4A10100F2B69B /* person.proto in Resources */ = {isa = PBXBuildFile; fileRef = E67E41D61FF4A10100F2B69B /* person.proto */; };
 		E6DCDAEE1FF387860090034C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCDAED1FF387860090034C /* AppDelegate.swift */; };
 		E6DCDAF01FF387860090034C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCDAEF1FF387860090034C /* ViewController.swift */; };
 		E6DCDAF31FF387860090034C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DCDAF11FF387860090034C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		008BC3B0E7494E1A4A2CCE6E /* Pods-ProtobufDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtobufDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtobufDemo/Pods-ProtobufDemo.release.xcconfig"; sourceTree = "<group>"; };
 		31E9D505728007002F8D7349 /* Pods_ProtobufDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtobufDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67E41D41FF4A0A800F2B69B /* person.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = person.pb.swift; sourceTree = "<group>"; };
+		E67E41D61FF4A10100F2B69B /* person.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.proto; sourceTree = "<group>"; };
 		E6DCDAEA1FF387860090034C /* ProtobufDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtobufDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DCDAED1FF387860090034C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6DCDAEF1FF387860090034C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				E6DCDAF61FF387860090034C /* LaunchScreen.storyboard */,
 				E6DCDAF91FF387860090034C /* Info.plist */,
 				E67E41D41FF4A0A800F2B69B /* person.pb.swift */,
+				E67E41D61FF4A10100F2B69B /* person.proto */,
 			);
 			path = ProtobufDemo;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DCDAF81FF387860090034C /* LaunchScreen.storyboard in Resources */,
+				E67E41D71FF4A10100F2B69B /* person.proto in Resources */,
 				E6DCDAF51FF387860090034C /* Assets.xcassets in Resources */,
 				E6DCDAF31FF387860090034C /* Main.storyboard in Resources */,
 			);
