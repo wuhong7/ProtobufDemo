@@ -12,13 +12,30 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var person = Person()
+        person.personID = 1
+        person.personName = "Carson"
+        person.personGender = "Male"
+        person.personMessage = "I'm the best in the world !"
+        
+        let binaryData = try? person.serializedData()
+        
+        let decodedInfo = try? Person(serializedData: binaryData!)
+        
+        print(decodedInfo!)
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
 
 }
